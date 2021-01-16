@@ -25,7 +25,7 @@ routes.post("/user", async (request, response) => {
     const thisUserExist = await user.getUserByEmail(email);
 
     if (thisUserExist.length > 0) {
-      return response.status(401).send({
+      return response.status(400).send({
         error: "Usuário já existente",
       });
     }
@@ -33,7 +33,7 @@ routes.post("/user", async (request, response) => {
     const [createdUser] = await user.createUser({ name, email, password });
 
     if (!createdUser) {
-      return response.status(400).send({ error: "Erro ao cadastrar usuário" });
+      return response.status(500).send({ error: "Erro ao cadastrar usuário" });
     }
 
     return response.status(200).send({
