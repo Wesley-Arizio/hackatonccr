@@ -31,3 +31,7 @@
   line-height: 28px;
   max-width: 207px;
 }
+
+#template p{
+  max-width: 200px ;
+}

@@ -18,6 +18,24 @@ export default function QuestionOne() {
             (apelido)
           </p>
         </Template>
+
+        <Template name="Desafio B">
+          <p>
+            Escreva onde você mora
+          </p>
+        </Template>
+
+        <Template name="Desafio C">
+          <p>
+          Escreva  o que você vende ou gostaria de vender no seu negócio
+          </p>
+        </Template>
+
+        <Template name="Desafio D">
+          <p>
+          Grave um vídeo de até 2 minutos contando a sua história: quem é você? Quem é sua família/comunidade? Desde quando você trabalha com esse produto? Qual o seu sonho? 
+          </p>
+        </Template>
       </div>
     </div>
   );
