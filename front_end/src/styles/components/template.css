@@ -1,0 +1,22 @@
+#template{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+
+    color: #16E0BC;
+    background-color: #5F2EDB ;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 13px;
+    font-size: 14px;
+    width: 247px;
+    min-height: 127px;
+}
+
+#template h1{
+    font: 900 24px 'Roboto';
+    line-height: 28px;
+    max-width: 207px;
+}

@@ -7,13 +7,12 @@
 
     height: 100vh;
 
-    background-color: #5F2EDB;
 
 }
 
-header h1{
+#login-page header h1{
     font: 900 24px 'Titan One' ;
-    color: white;
+    color: black;
 }
 
 main{
@@ -28,6 +27,10 @@ main input{
     padding: 10px;
     margin: 10px;
     width: 28.9rem;
+    border: none;
+
+    background-color: rgba(45, 46, 219, 0.3);
+
 }
 
 main a{
@@ -39,11 +42,10 @@ main a{
 
     width: 28.9rem;
     height: 5.1rem;
-    background-color: #FF8820;
 }
 
+
 a{
-    color: white;
     text-decoration: none;
     font: 900 10px 'Roboto' ;
 

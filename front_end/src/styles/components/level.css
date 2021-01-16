@@ -1,0 +1,34 @@
+#level-component{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 5px;
+}
+
+#forms #circle{
+    background-color: #C4C4C4;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+}
+
+
+
+#level-component a{
+    background-color:#16E0BC ;
+    width: 248px;
+    height: 43px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: #5F2EDB;
+    text-decoration: none;
+    font: 900 24px 'Roboto';
+}
+
+img{
+  width: 24px;  
+}
