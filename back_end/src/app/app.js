@@ -1,10 +1,10 @@
 const express = require("express");
 
+const UserController = require("../controller/userController/userController");
+
 const app = express();
 
 app.use(express.json());
-app.get("/", async (request, response) => {
-  return response.send({ message: "Hello World" });
-});
+app.use(UserController);
 
 module.exports = app;
