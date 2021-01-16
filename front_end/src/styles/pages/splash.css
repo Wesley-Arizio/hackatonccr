@@ -1,8 +1,25 @@
 body{
-    background-color:#FF8B20;
+    background-color:#FF8B20;    
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 
-h1{
+div #landing-page{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+
+#content-wrapper h1{
     font-family: 'Titan One' ;
     font-size: 4.8rem;
+    width: 150px;
+    word-wrap: break-word;
 }
+
+img{
+    height: 148px;
+}
+
