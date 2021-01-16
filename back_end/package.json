@@ -1,0 +1,12 @@
+{
+  "name": "back_end",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "node src/app/server"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
