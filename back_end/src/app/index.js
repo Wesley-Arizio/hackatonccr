@@ -1,10 +1,12 @@
+require("dotenv").config();
+
 const app = require("./app");
 
 const port = Symbol("port");
 
 class App {
   constructor() {
-    this[port] = 3001;
+    this[port] = process.env.PORT;
   }
 
   startApp() {
