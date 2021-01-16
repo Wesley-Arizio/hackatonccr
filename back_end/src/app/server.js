@@ -1,5 +1,5 @@
 const App = require("./index");
 
-const app = new App(3001);
+const app = new App();
 
 app.startApp();
