@@ -1,0 +1,58 @@
+
+#login-page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+
+
+}
+
+#login-page header h1{
+    font: 900 24px 'Titan One' ;
+    color: black;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+}
+
+main input{
+    padding: 10px;
+    margin: 10px;
+    width: 28.9rem;
+    border: none;
+
+    background-color: rgba(45, 46, 219, 0.3);
+
+}
+
+main a{
+    text-decoration: none;
+    font: 900 24px 'Roboto' ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 28.9rem;
+    height: 5.1rem;
+}
+
+
+a{
+    text-decoration: none;
+    font: 900 10px 'Roboto' ;
+
+    display: flex;
+    justify-content: flex-start;
+    margin: 10px;
+
+    font-size: 14px;
+
+}
