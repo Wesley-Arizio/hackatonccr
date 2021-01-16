@@ -3,10 +3,10 @@ import { Link } from 'react-router-dom'
 
 import "../styles/components/template.css";
 
-export default function Template({ name, children }) {
+export default function Template({ name, children, goTo }) {
   return (
     <div className="container-template">
-      <Link to=''>
+      <Link to={gotTo}>
         <div id="template">
           <h1>{name}</h1>
           {children}

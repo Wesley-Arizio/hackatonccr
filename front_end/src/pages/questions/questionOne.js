@@ -12,26 +12,26 @@ export default function QuestionOne() {
           <h2>Quem é você</h2>
         </header>
 
-        <Template name="Desafio A">
+        <Template name="Desafio A" gotTo=''>
           <p>
             Tire uma selfie e escreva seu nome e como gosta de ser chamado
             (apelido)
           </p>
         </Template>
 
-        <Template name="Desafio B">
+        <Template name="Desafio B" gotTo=''>
           <p>
             Escreva onde você mora
           </p>
         </Template>
 
-        <Template name="Desafio C">
+        <Template name="Desafio C" gotTo=''>
           <p>
           Escreva  o que você vende ou gostaria de vender no seu negócio
           </p>
         </Template>
 
-        <Template name="Desafio D">
+        <Template name="Desafio D" gotTo=''>
           <p>
           Grave um vídeo de até 2 minutos contando a sua história: quem é você? Quem é sua família/comunidade? Desde quando você trabalha com esse produto? Qual o seu sonho? 
           </p>
