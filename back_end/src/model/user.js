@@ -1,12 +1,16 @@
 const { v4: uuid } = require("uuid");
 
+const PasswordHelper = require("./passwordHelper");
+
 const dbConnection = Symbol("dbConnection");
 const getUserByEmail = Symbol("getUserByEmail");
 const createUser = Symbol("createUser");
+const passwordHelper = Symbol("passwordHelper");
 
 class User {
   constructor(connection) {
     this[dbConnection] = connection;
+    this[passwordHelper] = new PasswordHelper();
   }
 
   [getUserByEmail](email) {
@@ -17,12 +21,14 @@ class User {
     return this[getUserByEmail](email);
   }
 
-  [createUser]({ name, email, password }) {
+  async [createUser]({ name, email, password }) {
+    const hashPassword = await this[passwordHelper].hashPassword(password);
+
     const user = {
       id: uuid(),
       name,
       email,
-      password,
+      password: hashPassword,
     };
     return this[dbConnection]("user").insert(user).returning("id");
   }
