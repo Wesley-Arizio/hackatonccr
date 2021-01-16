@@ -6,6 +6,7 @@ import SingUp from './pages/singup.js';
 import Splash from './pages/splash'
 import Levels from './pages/levels';
 import QuestionOne from './pages/questions/questionOne';
+import Congratulations from './pages/congratulations';
 
 export default function Routes(){
     return(
@@ -16,6 +17,7 @@ export default function Routes(){
                 <Route path='/cadastro' exact component={SingUp}/>            
                 <Route path='/perguntas' exact component={Levels}/>            
                 <Route path='/question' exact component={QuestionOne}/>            
+                <Route path='/congratulations' exact component={Congratulations}/>            
             </Switch>
         </BrowserRouter>
     )
