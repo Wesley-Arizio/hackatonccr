@@ -7,7 +7,6 @@ import '../styles/pages/splash.css'
 export default function Splash(){
     return(
         <div id='landing-page'>
-            oi
             <div id='content-wrapper'>
             <h1>
                 CASULO

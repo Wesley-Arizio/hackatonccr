@@ -5,12 +5,18 @@ import '../styles/pages/login.css'
 
 export default function Login(){
     return(
-        <div id='loging-page'>
+        <div id='login-page'>
+            <header>
+                <h1>Casulo</h1>
+            </header>
             <main>
                 <input type='text' placeholder='E-mail' />
-                <input type='text'  placeholder='Senha' />
-                <Link to='' >Entrar</Link>
+                <input type='password'  placeholder='Senha' />
+                <Link to='perguntas' >Entrar</Link>
             </main>
+
+            <Link to='cadastro' > Cadastrar </Link>
+
 
         </div>
     )

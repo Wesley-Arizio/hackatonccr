@@ -1,10 +1,10 @@
 body{
-    background-color:#FF8B20;    
     overflow-x: hidden;
     overflow-y: hidden;
 }
 
 div #landing-page{
+    background-color:#FF8B20;    
     height: 100vh;
     display: flex;
     justify-content: center;
