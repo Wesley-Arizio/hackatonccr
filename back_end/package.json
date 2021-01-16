@@ -4,12 +4,16 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "dev": "nodemon src/app/server"
+    "dev": "nodemon src/app/server",
+    "run:migration": "knex migrate:latest",
+    "run:seed": "knex seed:run"
   },
   "dependencies": {
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
-    "knex": "^0.21.15"
+    "knex": "^0.21.15",
+    "pg": "^8.5.1",
+    "uuid": "^8.3.2"
   },
   "devDependencies": {
     "nodemon": "^2.0.7"
