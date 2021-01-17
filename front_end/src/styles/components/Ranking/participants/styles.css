@@ -1,0 +1,81 @@
+.container-ranking {
+  width: 100%;
+  height: auto;
+
+  overflow-y: scroll;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 20px;
+  margin-top: 20px;
+}
+
+.ranking-img {
+  background-color: #aaa;
+  border-radius: 50%;
+  width: 74px;
+  height: 74px;
+
+  overflow: hidden;
+  position: relative;
+}
+.ranking-img img {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.container-ranking .user + .user {
+  margin-top: 15px;
+}
+
+.container-ranking .user {
+  width: 100%;
+  height: 99px;
+
+  border-radius: 45px;
+  background: #16e0bc;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 5px 10px;
+}
+
+.user .name-points {
+  margin-left: -50px;
+}
+
+.user .name-points h4 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+
+  color: #5f2edb;
+}
+
+.user .name-points p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+
+  color: #5f2edb;
+}
+
+.user .position h1 {
+  font-family: "Roboto";
+  font-size: 96px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 113px;
+  letter-spacing: 0em;
+  text-align: left;
+
+  color: #5f2edb;
+}

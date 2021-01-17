@@ -1,18 +1,19 @@
-import React from 'react'
+import React, { useEffect } from "react";
 
-import Logo from '../assets/logo.svg'
+import Logo from "../assets/logo.svg";
 
-import '../styles/pages/splash.css'
+import "../styles/pages/splash.css";
 
-export default function Splash(){
-    return(
-        <div id='landing-page'>
-            <div id='content-wrapper'>
-            <h1>
-                CASULO
-            </h1>
-            </div>
-            <img src={Logo} alt='Logo' />
-        </div>
-    )
+export default function Splash() {
+  useEffect(() => {
+    setTimeout(() => {
+      window.location.href = "/";
+    }, 5000);
+  }, []);
+
+  return (
+    <div id="landing-page">
+      <img src={Logo} alt="Logo" />
+    </div>
+  );
 }

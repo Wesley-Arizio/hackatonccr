@@ -1,0 +1,93 @@
+.container-faq {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.container-card {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 33px;
+  padding: 20px;
+}
+
+.container-card h4 {
+  font-family: "Roboto";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #5f2edb;
+}
+
+.container-name-status {
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  margin-top: 10px;
+}
+
+.container-name-status h5 {
+  font-family: "Roboto";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #5f2edb;
+}
+
+.respondida {
+  font-family: "Roboto";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #16e0bc;
+}
+
+.aguardandoresposta {
+  font-family: "Roboto";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ff8b20;
+}
+
+.consulta-mentor a {
+  position: absolute;
+  bottom: 50px;
+  right: 10px;
+
+  width: 150px;
+  height: 28px;
+  padding: 10px;
+
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+
+  color: #5f2edb;
+  background: #ff8b20;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

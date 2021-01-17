@@ -6,7 +6,7 @@
   flex-direction: column;
   align-items: center;
 
-  margin-top: 80px;
+  margin-top: 20px;
 }
 
 #template {
@@ -24,6 +24,35 @@
   font-size: 14px;
   width: 247px;
   min-height: 127px;
+  height: auto;
+
+  padding: 10px;
+}
+
+#template input {
+  width: 150px;
+  height: 25px;
+  padding: 10px;
+
+  margin-top: 10px;
+  outline: none;
+}
+
+#template button {
+  width: 100px;
+  height: 25px;
+
+  background: #ff8b20;
+  color: #5f2edb;
+  padding: 10px;
+  border: none;
+  outline: none;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  cursor: pointer;
 }
 
 #template h1 {
@@ -32,6 +61,6 @@
   max-width: 207px;
 }
 
-#template p{
-  max-width: 200px ;
+#template p {
+  max-width: 200px;
 }

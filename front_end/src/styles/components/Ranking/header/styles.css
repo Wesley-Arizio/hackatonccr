@@ -1,0 +1,43 @@
+.ranking-header {
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 20px;
+  background: #5f2edb;
+}
+
+.ranking-header h1 {
+  font-family: "Roboto";
+  font-style: normal;
+  letter-spacing: 0em;
+  line-height: 40px;
+  color: #ff8b20;
+  font-weight: 900;
+  margin-left: 20px;
+}
+
+.ranking-header .img-header-ranking {
+  width: 70px;
+  height: 70px;
+}
+
+.user-points {
+  font-family: "Roboto";
+  font-style: normal;
+  letter-spacing: 0em;
+  line-height: 16px;
+  color: #ff8b20;
+
+  margin-left: 10px;
+}
+
+.user-points h4 {
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.user-points p {
+  font-weight: 400;
+}

@@ -1,0 +1,122 @@
+.container-menu-hamburguer {
+  position: fixed;
+  z-index: 1000;
+
+  bottom: 50px;
+  left: 0px;
+}
+
+.container-menu-hamburguer main {
+  width: 94px;
+  height: 55px;
+  background: #ff8b20;
+}
+
+span.hamburguer {
+  position: relative;
+  display: block;
+  background: #5f2edb;
+
+  width: 30px;
+  height: 1px;
+}
+
+span.hamburguer:before,
+span.hamburguer:after {
+  background: #5f2edb;
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+span.hamburguer:before {
+  top: -10px;
+}
+
+span.hamburguer:after {
+  bottom: -10px;
+}
+
+.container-menu {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 70%;
+  background: #ff8b20;
+  height: 100vh;
+  transition: all 0.4s;
+}
+
+.container-menu img {
+  width: 78px;
+  height: 78px;
+
+  margin: 20px 0 0 20px;
+}
+
+.container-menu .container-profile {
+  width: 100%;
+
+  display: flex;
+}
+
+.container-menu .container-profile .container-name-points {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin-left: 20px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #4c3bb3;
+
+  margin-top: 40px;
+}
+
+.container-name-points h4 {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.container-name-points p {
+  font-size: 12px;
+  font-weight: normal;
+}
+
+.container-options {
+  display: flex;
+  flex-direction: column;
+  padding: 0 10px;
+
+  margin-top: 20px;
+}
+
+.container-options .option {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.container-options .option p {
+  font-family: "Roboto";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #5f2edb;
+  margin-left: 5px;
+}
+.container-options .option .img-option {
+  width: 40px;
+  height: 40px;
+  margin: 0;
+  margin-left: 20px;
+}

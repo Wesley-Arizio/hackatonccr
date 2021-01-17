@@ -24,14 +24,14 @@
   align-items: center;
   padding: 10px;
 
-  color: #5F2EDB;
+  color: #5f2edb;
 }
 
-#question-five-page header h1{
+#question-five-page header h1 {
   font-size: 96px;
   margin: 20px;
 }
 
-#question-five-page header h2{
-  font: 900 24px 'Roboto';
+#question-five-page header h2 {
+  font: 900 24px "Roboto";
 }
