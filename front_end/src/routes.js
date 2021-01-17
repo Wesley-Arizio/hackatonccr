@@ -9,6 +9,7 @@ import QuestionOne from './pages/questions/questionOne';
 import Congratulations from './pages/congratulations';
 import QuestionTwo from './pages/questions/questionTwo';
 import CongratulationsTwo from './pages/congratulationsTwo';
+import QuestionFive from './pages/questions/questionFive';
 
 export default function Routes(){
     return(
@@ -21,6 +22,7 @@ export default function Routes(){
 
                 <Route path='/question' exact component={QuestionOne}/>            
                 <Route path='/questionTwo' exact component={QuestionTwo}/>    
+                <Route path='/questionFive' exact component={QuestionFive}/>    
 
                 <Route path='/congratulations' exact component={Congratulations}/>            
                 <Route path='/congratulationsTwo' exact component={CongratulationsTwo}/>            
