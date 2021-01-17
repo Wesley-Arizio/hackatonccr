@@ -11,7 +11,7 @@ export default function SingUp(){
 
             <main>
                 <input type='text' placeholder='Nome'/>
-                <input type='text' placeholder='E-mail' />
+                <input type='text' placeholder='E-mail'/>
                 <input type='password' placeholder='Senha' />
                 <input type='password' placeholder='Repetir Senha' />
                 <Link to='perguntas'>Entrar</Link>

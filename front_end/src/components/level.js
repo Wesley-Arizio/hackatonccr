@@ -6,7 +6,7 @@ import cadeado from "../assets/lock.svg";
 
 import "../styles/components/level.css";
 
-export default function Level({ number, isOpen }) {
+export default function Level({ number, isOpen, goTo }) {
   console.log(number);
   return (
     <div id="level-component">
@@ -15,7 +15,7 @@ export default function Level({ number, isOpen }) {
       </div>
 
       <div>
-        <Link to="/question">
+        <Link to={goTo}>
           {" "}
           Fase {number}{" "}
           {isOpen ? (
