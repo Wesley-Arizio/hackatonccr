@@ -14,7 +14,7 @@ class User {
   }
 
   [getUserByEmail](email) {
-    return this[dbConnection]("user").select("name").where("email", email);
+    return this[dbConnection]("user").select("*").where("email", email);
   }
 
   getUserByEmail(email) {
