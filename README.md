@@ -17,7 +17,7 @@ Esse projeto foi construido usando as seguintes tecnologias:
 # :construction_worker: Como instalar o projeto
 ```bash
 # Clonando Repositório
-$ git clone https://github.com/Wesley-Arizio/hackatonccr
+$ git clone https://github.com/Wesley-Arizio/hackatonccr.git
 
 # Entrando na pasta 
 $ cd front_end
