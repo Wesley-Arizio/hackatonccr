@@ -16,7 +16,6 @@ routes.post("/user", async (request, response) => {
   const { error } = validateUser.validCreatedUser({ name, email, password });
 
   if (error) {
-    console.log(error);
     return response.status(400).send({
       error: "Dados invalidos",
     });
