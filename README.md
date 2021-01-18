@@ -58,4 +58,4 @@ $  docker run \
 Vá para http://localhost:3000/ para ver o resultado
 
 ### Time
-Camilla, Lícia de Carvalho, Carlos, Paula Cardoso e Vitor Risso
+Camilla, Lícia de Carvalho, Carlos, Paula Cardoso, Vitor Risso e Wesley Arizio
